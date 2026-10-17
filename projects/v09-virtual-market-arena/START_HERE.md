@@ -36,16 +36,16 @@ cd projects/v09-virtual-market-arena
 python tools/arena_review.py status
 python tools/arena_review.py propose --dry-run
 export OPENAI_API_KEY="..."  # 로컬 셸에서만. 파일이나 커밋에 포함하지 말 것.
-python tools/arena_review.py propose --model YOUR_AVAILABLE_MODEL --max-calls 2
-python tools/arena_review.py propose --model YOUR_AVAILABLE_MODEL  # 중단 시 이어서 작성
-python tools/arena_review.py review --model YOUR_AVAILABLE_MODEL
-python tools/arena_review.py rebut --model YOUR_AVAILABLE_MODEL
-python tools/arena_review.py synthesize --model YOUR_AVAILABLE_MODEL
+python tools/arena_review.py propose --model YOUR_AVAILABLE_MODEL --confirm-api-spend --max-calls 2
+python tools/arena_review.py propose --model YOUR_AVAILABLE_MODEL --confirm-api-spend  # 중단 시 이어서 작성
+python tools/arena_review.py review --model YOUR_AVAILABLE_MODEL --confirm-api-spend
+python tools/arena_review.py rebut --model YOUR_AVAILABLE_MODEL --confirm-api-spend
+python tools/arena_review.py synthesize --model YOUR_AVAILABLE_MODEL --confirm-api-spend
 python tools/arena_review.py audit
 python -m unittest discover -s tools -p 'test_*.py'
 ```
 
-각 에이전트는 별도의 API 호출로 독립된 대화 문맥을 갖습니다. **이 채팅에서 12개의 독립 에이전트가 실행되었다는 뜻은 아닙니다.** 실행하지 않은 출력은 생성되었다고 표시하지 않습니다. 명령을 실행하면 응답 원문을 로컬 `runs/`에 저장하되 자동으로 GitHub 또는 Notion에 게시하지 않습니다. 기밀·키·실계좌 자료를 프롬프트에 포함시키지 마세요.
+각 에이전트는 별도의 API 호출로 독립된 대화 문맥을 갖습니다. **전체 완료에는 12+24+12+1=49회의 유료 API 호출이 필요하며, `--confirm-api-spend` 없이는 어떤 호출도 하지 않습니다.** **이 채팅에서 12개의 독립 에이전트가 실행되었다는 뜻은 아닙니다.** 실행하지 않은 출력은 생성되었다고 표시하지 않습니다. 명령을 실행하면 응답 원문을 로컬 `runs/`에 저장하되 자동으로 GitHub 또는 Notion에 게시하지 않습니다. 기밀·키·실계좌 자료를 프롬프트에 포함시키지 마세요.
 
 ## 변경하지 않는 것
 
