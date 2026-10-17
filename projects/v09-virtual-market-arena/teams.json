@@ -1,0 +1,135 @@
+{
+  "project": "V0.9 Virtual Market Arena",
+  "version": "1.0",
+  "status": "FRAMEWORK_CREATED",
+  "execution": "NOT_RUN",
+  "baseDocuments": [
+    "PROJECT_BRIEF.md",
+    "EVIDENCE_REGISTER.md",
+    "REVIEW_PROTOCOL.md",
+    "RUBRIC.md"
+  ],
+  "reviewAssignment": "reviewer i audits i+1 and i+5 modulo 12; each target receives exactly two peer reviews",
+  "teams": [
+    {
+      "id": "T01",
+      "name": "거래소 미시구조 팀",
+      "file": "teams/T01-market-microstructure.md",
+      "reviewTargets": [
+        "T02",
+        "T06"
+      ],
+      "mission": "가격·시간 우선, 지정가/시장가, 부분체결, 호가 공정성 및 대기열 모델 검증"
+    },
+    {
+      "id": "T02",
+      "name": "진화유전·생태계 팀",
+      "file": "teams/T02-evolutionary-ecology.md",
+      "reviewTargets": [
+        "T03",
+        "T07"
+      ],
+      "mission": "독립 유전자·성향, 유전적 거리, 부모 선택, 다양성 보존, 진화-시장 공진화"
+    },
+    {
+      "id": "T03",
+      "name": "전략·포트폴리오 팀",
+      "file": "teams/T03-portfolio-quant.md",
+      "reviewTargets": [
+        "T04",
+        "T08"
+      ],
+      "mission": "현금·포지션·상관관계·유동성·레버리지 위험, 전략 간 경쟁의 공정성"
+    },
+    {
+      "id": "T04",
+      "name": "통계·인과추론 팀",
+      "file": "teams/T04-statistical-inference.md",
+      "reviewTargets": [
+        "T05",
+        "T09"
+      ],
+      "mission": "성공 판정·불확실성, 다중 시드, 교란 통제, 선택 편향과 일반화 검증"
+    },
+    {
+      "id": "T05",
+      "name": "시장 데이터·시계열 팀",
+      "file": "teams/T05-market-data-temporality.md",
+      "reviewTargets": [
+        "T06",
+        "T10"
+      ],
+      "mission": "완료된 봉, 거래소 달력, 가격 조정, 데이터 출처, 미래정보·이중사용 방지"
+    },
+    {
+      "id": "T06",
+      "name": "고성능 시뮬레이션 팀",
+      "file": "teams/T06-systems-performance.md",
+      "reviewTargets": [
+        "T07",
+        "T11"
+      ],
+      "mission": "50→1000 봇과 주문/체결 이벤트 처리량, 캐시, 결정론적 병렬화"
+    },
+    {
+      "id": "T07",
+      "name": "합성시장·디지털트윈 팀",
+      "file": "teams/T07-synthetic-market-models.md",
+      "reviewTargets": [
+        "T08",
+        "T12"
+      ],
+      "mission": "내생적 가격 형성, 외생 참가자, 시장 충격, 리플레이·에이전트 기반·혼합 모형 비교"
+    },
+    {
+      "id": "T08",
+      "name": "보안·적대적 행위 팀",
+      "file": "teams/T08-security-adversarial.md",
+      "reviewTargets": [
+        "T09",
+        "T01"
+      ],
+      "mission": "주문장 조작·담합·자기체결·오염된 결과, 권한격리, 악용 방지"
+    },
+    {
+      "id": "T09",
+      "name": "봇 관제·관전 UX 팀",
+      "file": "teams/T09-observability-ux.md",
+      "reviewTargets": [
+        "T10",
+        "T02"
+      ],
+      "mission": "봇/시장 관전, 세대 가계도, 데이터 갱신 시각, 성능 설명가능성"
+    },
+    {
+      "id": "T10",
+      "name": "제품·게임 시스템 팀",
+      "file": "teams/T10-product-game-systems.md",
+      "reviewTargets": [
+        "T11",
+        "T03"
+      ],
+      "mission": "서로 다른 성향이 충돌하는 경쟁 동학과 보는 재미, 사용자 목표 정의"
+    },
+    {
+      "id": "T11",
+      "name": "신뢰성·테스트 엔지니어링 팀",
+      "file": "teams/T11-reliability-verification.md",
+      "reviewTargets": [
+        "T12",
+        "T04"
+      ],
+      "mission": "주문/체결 정합성, 결정론적 재생, 크래시 후 회복, 무효일 처리"
+    },
+    {
+      "id": "T12",
+      "name": "비용·거버넌스·프로그램 팀",
+      "file": "teams/T12-economics-governance.md",
+      "reviewTargets": [
+        "T01",
+        "T05"
+      ],
+      "mission": "일정·예산·법규 조사, 지적재산권, 운영 부담, 외부 검증의 신뢰성"
+    }
+  ]
+}
