@@ -7,7 +7,7 @@
 
 C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자동화 · 클라우드 운영**까지 경험을 넓혀가고 있습니다.
 
-[![RPG Portfolio](https://img.shields.io/badge/PLAY-Developer%27s%20Quest-A78BFA?style=for-the-badge&logo=gamejolt&logoColor=white)](https://heh-heh.github.io/market-career-dashboard/portfolio/)
+[![RPG Portfolio](https://img.shields.io/badge/PLAY-Developer%27s%20Quest-A78BFA?style=for-the-badge&logo=gamejolt&logoColor=white)](https://heh-heh.github.io/heh-heh/)
 [![GitHub](https://img.shields.io/badge/GitHub-heh--heh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/heh-heh)
 [![Chess Academy](https://img.shields.io/badge/Live-Chess%20Academy-2563EB?style=for-the-badge&logo=lichess&logoColor=white)](https://chessacademy.io.kr)
 [![Dashboard](https://img.shields.io/badge/Live-Market%20Dashboard-0F766E?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://heh-heh.github.io/market-career-dashboard/)
@@ -20,7 +20,7 @@ C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자�
 
 **프로젝트를 게임처럼 탐험해 보세요.** 캐릭터 창, 퀘스트 로그, 스킬 트리, 업적 도감으로 기술과 개발 경험을 정리한 인터랙티브 포트폴리오입니다.
 
-**🕹️ [▶ RPG 포트폴리오 플레이하기](https://heh-heh.github.io/market-career-dashboard/portfolio/)**
+**🕹️ [▶ RPG 포트폴리오 플레이하기](https://heh-heh.github.io/heh-heh/)**
 
 ### 🏅 Certifications & Achievements
 
@@ -134,6 +134,6 @@ C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자�
 
 **Build something useful. Keep learning. Keep shipping.**
 
-[🎮 RPG Portfolio](https://heh-heh.github.io/market-career-dashboard/portfolio/) · [Projects](https://github.com/heh-heh?tab=repositories) · [Chess Academy](https://chessacademy.io.kr) · [Dashboard](https://heh-heh.github.io/market-career-dashboard/)
+[🎮 RPG Portfolio](https://heh-heh.github.io/heh-heh/) · [Projects](https://github.com/heh-heh?tab=repositories) · [Chess Academy](https://chessacademy.io.kr) · [Dashboard](https://heh-heh.github.io/market-career-dashboard/)
 
 </div>
