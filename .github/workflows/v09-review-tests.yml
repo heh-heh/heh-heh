@@ -1,0 +1,40 @@
+name: Validate V0.9 12-team review framework
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'projects/v09-virtual-market-arena/**'
+      - '.github/workflows/v09-review-tests.yml'
+  pull_request:
+    paths:
+      - 'projects/v09-virtual-market-arena/**'
+      - '.github/workflows/v09-review-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: projects/v09-virtual-market-arena
+    steps:
+      - name: Checkout review framework
+        uses: actions/checkout@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Compile local runner
+        run: python -m py_compile tools/arena_review.py tools/test_arena_review.py
+      - name: Run offline isolation and protocol tests
+        run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Verify all 12 team manifests with zero model usage
+        run: |
+          python tools/arena_review.py status
+          python tools/arena_review.py propose --dry-run
+          python tools/arena_review.py review --dry-run || test "$?" -eq 1
