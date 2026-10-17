@@ -1,0 +1,9 @@
+# Local paid-agent outputs and credentials: never commit.
+runs/
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
