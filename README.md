@@ -10,7 +10,7 @@ C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자�
 [![RPG Portfolio](https://img.shields.io/badge/PLAY-Developer%27s%20Quest-A78BFA?style=for-the-badge&logo=gamejolt&logoColor=white)](https://heh-heh.github.io/heh-heh/)
 [![GitHub](https://img.shields.io/badge/GitHub-heh--heh-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/heh-heh)
 [![Chess Academy](https://img.shields.io/badge/Live-Chess%20Academy-2563EB?style=for-the-badge&logo=lichess&logoColor=white)](https://chessacademy.io.kr)
-[![Dashboard](https://img.shields.io/badge/Live-Market%20Dashboard-0F766E?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://heh-heh.github.io/market-career-dashboard/)
+[![Dashboard](https://img.shields.io/badge/Live-Market%20Dashboard-0F766E?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://heh-heh.tail39e546.ts.net/)
 
 </div>
 
@@ -86,7 +86,7 @@ C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자�
 > **Python · JavaScript · GitHub Pages · AWS EC2 · GitHub Actions**  
 > 주식 시장, 게임/IT 채용공고, 산업 동향을 한곳에서 확인하는 대시보드. 데이터 수집 파이프라인과 백테스트·AI 연구 기능을 확장하고 있습니다.
 
-🌐 [대시보드](https://heh-heh.github.io/market-career-dashboard/) · 💻 [소스코드](https://github.com/heh-heh/market-career-dashboard)
+🌐 [대시보드](https://heh-heh.tail39e546.ts.net/) · 💻 [소스코드](https://github.com/heh-heh/market-career-dashboard)
 
 ### ♜ [Chees Engine — C++ 체스 엔진](https://github.com/heh-heh/chees_engin)
 
@@ -134,6 +134,6 @@ C/C++ 기반 게임 개발을 중심으로 **웹 · 백엔드 · 데이터 자�
 
 **Build something useful. Keep learning. Keep shipping.**
 
-[🎮 RPG Portfolio](https://heh-heh.github.io/heh-heh/) · [Projects](https://github.com/heh-heh?tab=repositories) · [Chess Academy](https://chessacademy.io.kr) · [Dashboard](https://heh-heh.github.io/market-career-dashboard/)
+[🎮 RPG Portfolio](https://heh-heh.github.io/heh-heh/) · [Projects](https://github.com/heh-heh?tab=repositories) · [Chess Academy](https://chessacademy.io.kr) · [Dashboard](https://heh-heh.tail39e546.ts.net/)
 
 </div>
